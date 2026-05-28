@@ -345,5 +345,3 @@ Full ADRs: [`docs/architecture_decisions.md`](docs/architecture_decisions.md)
 | Architecture decisions | `docs/architecture_decisions.md` |
 | Evaluation methodology | `docs/evaluation_methodology.md` |
 | Deployment guide | `docs/deployment.md` |
-
-Send to: **work@ollive.ai**
