@@ -1,14 +1,14 @@
----
+<img width="819" height="635" alt="image" src="https://github.com/user-attachments/assets/582ae37e-df6c-49dd-aafa-46ebe653a863" />---
 title: Dual AI Assistant
 emoji: 🤖
 colorFrom: blue
-colorTo: orange
-sdk: streamlit
+colorTo: yellow
+sdk: docker
 sdk_version: 1.35.0
 app_file: app.py
 pinned: true
 license: mit
-short_description: OSS (Qwen2.5-0.5B) vs Frontier (Gemini 2.5 Flash) · Memory · Safety · Evals
+short_description: Dual AI assistant OSS (Qwen2.5-0.5B) vs Frontier (Gemini 2.5 Flash) · Memory · Safety · Evals
 tags:
   - llm
   - evaluation
