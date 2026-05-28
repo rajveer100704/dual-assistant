@@ -47,7 +47,7 @@ make run                        # launches Streamlit UI at localhost:8501
 |---|---|---|
 | 🟧 [Frontier Assistant](https://huggingface.co/spaces/rajveer100704/dual-assistant) | HuggingFace Spaces | Gemini 2.5 Flash |
 | 🟦 [OSS Assistant](https://huggingface.co/spaces/rajveer100704/dual-assistant) | HuggingFace Spaces CPU | Qwen2.5-0.5B |
-| 🎥 [2-min Loom Walkthrough](https://www.loom.com/share/YOUR_LOOM_ID) | Loom | — |
+
 
 > **Note:** HF Spaces cold start takes ~60s on first load (OSS model download). Subsequent loads are faster.  
 > **Deploy your own:** `python deploy_hf.py --username rajveer100704`
