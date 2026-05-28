@@ -15,7 +15,6 @@ tags:
   - safety
   - streamlit
   - qwen
-  - claude
 ---
 
 # Dual AI Assistant
@@ -38,6 +37,6 @@ The OSS assistant (Qwen2.5-0.5B) runs entirely on CPU — no API key needed.
 ## Local Quickstart
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dual-assistant
+git clone https://github.com/rajveer100704/dual-assistant
 cd dual-assistant && make setup && make run
 ```

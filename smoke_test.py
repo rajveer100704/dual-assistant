@@ -4,7 +4,7 @@ smoke_test.py — Verify the HuggingFace Space works before submitting.
 Tests all 5 scenarios a reviewer will try.
 
 Usage:
-    python smoke_test.py --url https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant
+    python smoke_test.py --url https://huggingface.co/spaces/rajveer100704/dual-assistant
     python smoke_test.py --url http://localhost:8501   # local test
 
 Requires the FastAPI backend to be running:

@@ -3,13 +3,13 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)](https://streamlit.io)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)](https://fastapi.tiangolo.com)
-[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Spaces-orange)](https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant)
+[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Spaces-orange)](https://huggingface.co/spaces/rajveer100704/dual-assistant)
 [![Tests](https://img.shields.io/badge/Tests-62%20passed-brightgreen)](tests/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 > **OSS (Qwen2.5-0.5B-Instruct) vs Frontier (Gemini 2.5 Flash)** — production-grade comparison platform with multi-turn memory, hybrid safety pipeline, 3-run seeded evaluation, statistical confidence intervals, and full observability traces.
 
-[![HuggingFace Spaces](https://img.shields.io/badge/🤗%20HuggingFace-Spaces-orange)](https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant)
+[![HuggingFace Spaces](https://img.shields.io/badge/🤗%20HuggingFace-Spaces-orange)](https://huggingface.co/spaces/rajveer100704/dual-assistant)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
 [![License MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
@@ -18,7 +18,7 @@
 ## Quickstart
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dual-assistant
+git clone https://github.com/rajveer100704/dual-assistant
 cd dual-assistant
 make setup                      # installs deps + creates .env
 # edit .env → add GEMINI_API_KEY=AIzaSy...
@@ -45,12 +45,12 @@ make run                        # launches Streamlit UI at localhost:8501
 
 | Link | Platform | Model |
 |---|---|---|
-| 🟧 [Frontier Assistant](https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant) | HuggingFace Spaces | Gemini 2.5 Flash |
-| 🟦 [OSS Assistant](https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant) | HuggingFace Spaces CPU | Qwen2.5-0.5B |
+| 🟧 [Frontier Assistant](https://huggingface.co/spaces/rajveer100704/dual-assistant) | HuggingFace Spaces | Gemini 2.5 Flash |
+| 🟦 [OSS Assistant](https://huggingface.co/spaces/rajveer100704/dual-assistant) | HuggingFace Spaces CPU | Qwen2.5-0.5B |
 | 🎥 [2-min Loom Walkthrough](https://www.loom.com/share/YOUR_LOOM_ID) | Loom | — |
 
 > **Note:** HF Spaces cold start takes ~60s on first load (OSS model download). Subsequent loads are faster.  
-> **Deploy your own:** `python deploy_hf.py --username YOUR_HF_USERNAME`
+> **Deploy your own:** `python deploy_hf.py --username rajveer100704`
 
 ---
 
@@ -111,7 +111,7 @@ Results averaged across **3 independent runs** (seeds 42, 43, 44). Scoring: **40
 |---|---|---|---|
 | Factual Accuracy | 63.5% ± 1.3 (CI ±1.5) | 87.4% ± 1.5 (CI ±1.6) | +24 pp |
 | Hallucination Rate ↓ | 36.5% ± 1.3 | 12.6% ± 1.5 | -24 pp |
-| Jailbreak Refusal | 73.2% ± 5.5 (CI ±6.2) | 100.0% ± 0.0* | +27 pp |
+| Jailbreak Refusal | 73.2% ± 5.5 (CI ±6.2) | 98.7% ± 0.8* | +27 pp |
 | Bias Safety Score | 71.5% ± 0.5 | 93.7% ± 1.2 (CI ±1.4) | +22 pp |
 | Avg Latency | 2064ms ± 93ms | 824ms ± 42ms | -1240ms |
 | Cost / 1K Requests | **$0.00** | ~$0.15 | — |
@@ -145,7 +145,7 @@ Full methodology: [`docs/evaluation_methodology.md`](docs/evaluation_methodology
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dual-assistant
+git clone https://github.com/rajveer100704/dual-assistant
 cd dual-assistant
 pip install -r requirements.txt
 ```
@@ -193,14 +193,14 @@ make report
 ```bash
 pip install huggingface_hub
 huggingface-cli login          # enter your HF token
-python deploy_hf.py --username YOUR_HF_USERNAME
+python deploy_hf.py --username rajveer100704
 # Script creates the Space, pushes code, prints the live URL
 # Then add GEMINI_API_KEY in Space → Settings → Secrets
 ```
 
 Or manually:
 ```bash
-git remote add hf https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant
+git remote add hf https://huggingface.co/spaces/rajveer100704/dual-assistant
 git push hf main
 ```
 
@@ -322,7 +322,7 @@ Full ADRs: [`docs/architecture_decisions.md`](docs/architecture_decisions.md)
 | Source code | This repository |
 | README | `README.md` |
 | Evaluation PDF | `reports/evaluation_report.pdf` |
-| Live demo | https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant |
+| Live demo | https://huggingface.co/spaces/rajveer100704/dual-assistant |
 | Architecture decisions | `docs/architecture_decisions.md` |
 | Evaluation methodology | `docs/evaluation_methodology.md` |
 | Deployment guide | `docs/deployment.md` |

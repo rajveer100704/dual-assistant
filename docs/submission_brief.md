@@ -15,8 +15,8 @@ Hi Ollive team,
 
 Please find my submission for the AI Engineering Challenge below.
 
-**GitHub Repository:** https://github.com/YOUR_USERNAME/dual-assistant  
-**Live Demo (HF Spaces):** https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant  
+**GitHub Repository:** https://github.com/rajveer100704/dual-assistant  
+**Live Demo (HF Spaces):** https://huggingface.co/spaces/rajveer100704/dual-assistant  
 **Loom Walkthrough (2 min):** https://www.loom.com/share/YOUR_LOOM_ID  
 **Evaluation Report:** attached — `evaluation_report.pdf`
 
@@ -85,7 +85,7 @@ Both share identical memory, safety, and interface layers — isolating model ca
 Thanks for reviewing. Happy to discuss any of the engineering decisions in detail.
 
 Best,  
-[YOUR NAME]
+Rajveer
 
 ---
 
@@ -97,4 +97,4 @@ Before hitting send, confirm these are attached/linked:
 - [ ] GitHub repo — public, clean commit history, no `.env`
 - [ ] HF Spaces URL — app loads, OSS works without API key
 - [ ] Loom URL — video plays, under 2:30
-- [ ] Replace all placeholders: YOUR_USERNAME, YOUR_LOOM_ID, YOUR_NAME
+- [ ] Replace all placeholders: rajveer100704, YOUR_LOOM_ID, Rajveer

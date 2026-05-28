@@ -11,7 +11,7 @@ Best for: public demo, zero infra, free CPU tier.
 #    SDK: Streamlit | Hardware: CPU Basic (free)
 
 # 2. Add remote
-git remote add hf https://huggingface.co/spaces/YOUR_USERNAME/dual-assistant
+git remote add hf https://huggingface.co/spaces/rajveer100704/dual-assistant
 
 # 3. Push
 git push hf main
