@@ -1,0 +1,48 @@
+# ─── Secrets — NEVER commit ───────────────────────────────────────────────────
+.env
+*.env
+.streamlit/secrets.toml
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ─── Models (large files — downloaded at runtime) ─────────────────────────────
+*.bin
+*.safetensors
+*.gguf
+model_cache/
+hf_cache/
+~/.cache/huggingface/
+
+# ─── Generated outputs (keep structure, not contents) ─────────────────────────
+logs/*.log
+!logs/.gitkeep
+!logs/sample_traces.jsonl
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Deployment artifacts ─────────────────────────────────────────────────────
+*.zip
+pdf_page_*.png
+screenshots/pdf_page_*
