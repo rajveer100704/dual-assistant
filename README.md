@@ -1,3 +1,22 @@
+---
+title: Dual AI Assistant
+emoji: 🤖
+colorFrom: blue
+colorTo: yellow
+sdk: docker
+sdk_version: 1.35.0
+app_file: app.py
+pinned: true
+license: mit
+short_description: Dual AI assistant with safety and evals
+tags:
+  - llm
+  - evaluation
+  - safety
+  - streamlit
+  - qwen
+---
+
 # Dual AI Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
