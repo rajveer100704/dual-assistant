@@ -46,3 +46,9 @@ Thumbs.db
 *.zip
 pdf_page_*.png
 screenshots/pdf_page_*
+
+# ─── Internal verification / pre-submission tooling ──────────────────────────
+full_verification.py
+local_verify.py
+regression_test.py
+verification_report.txt
