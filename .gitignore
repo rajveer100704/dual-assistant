@@ -52,3 +52,6 @@ full_verification.py
 local_verify.py
 regression_test.py
 verification_report.txt
+
+charts/*.png
+screenshots/*.png
